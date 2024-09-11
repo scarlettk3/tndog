@@ -1,0 +1,18 @@
+in future
+1.to give scientific reason to why dogs.
+2.popular dog breeds in graphical representation.
+
+shopping for
+2.buy dogs from our website
+3.dog food.
+4.dog dresses.
+5.dog playthings.
+we actually wanted to create a blog,login/signup but we didn't learn back end
+6.various dog owners opinion providing user interface-community blog our customers.
+7.dog clinic
+8.what type first aid or preliminary task you need to know when your dog is sick
+9.translate what your dogs are saying-dog translator,we have many apps in playstore.
+linking to it.
+
+we also want to include cats,and some small animals like rabbits,hamsters,
+fishes and birds etc. 

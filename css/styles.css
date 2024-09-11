@@ -1,0 +1,156 @@
+ body{
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+} 
+/* ALL HEADINGS */
+.big-heading{
+    font-family: "Roboto Slab",serif;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:white;/*to change font color,angela used this in title as h1 is present in title id(well both are acceptable) */
+}
+.section-heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+}
+p{
+    color:#8f8f8f;
+}
+/* CONTAINERS */
+.container-fluid{
+    padding:7% 15%;
+}
+/* Sections */
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color:#fff;
+}
+/*(explained in combined selectors)BECAUSE of the container fluid padding of 7%,our navbar comes much lower,
+so inorder to avoid that we give the #title.container-fluid padding of 3% 7% 15% */
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:'Roboto', sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+    
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.5rem;
+    font-family:'Roboto', sans-serif;
+    
+}
+/*Download Buttons*/
+.download-button{
+    margin:5% 3% 5% 0;/*   100%=90px */
+}
+/* TITLE */
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align:left;
+}
+/* Title Image */ 
+.title-image{
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+/* features section */
+#features{
+    /* background-color:#fff;(should not be transparent) */
+    position:relative;/* position must be relative so that title-image can be visible */
+    z-index: 1;
+}
+.feature-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size:1.5;
+}
+.feature-box{
+    padding:5%;
+}
+
+
+.icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+/* Testimonial Section */
+
+#testimonials{
+    position:relative;/* (inorder to hide the phone image) */
+    z-index:1;
+}
+
+/* carousel-item */
+
+.testimonial-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    line-height:1.5; 
+}
+
+/* testimonial-image*/
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin:20px;
+}
+/* press-section */
+#press{
+    
+padding-bottom:3%;
+}
+/* inorder to change the logos and apply the same style to them we need to give them same class */
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+/*Pricing Section*/
+#pricing{
+    padding:100px;
+}
+.price-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+/* FOOTER SECTION */
+.flogo{
+    margin:20px;
+}
+
+/* USING CSS BREAKPOINTS MEDIA QUERY */
+/* i am applying media query to the point where my website is completely changing,click inspect and check my website is complety changed after width below 1028px. */
+@media (max-width:1654px){
+    #title{
+        text-align:center;/* to make them center align from left */
+    }
+    .title-image{
+        position:static;/* to the original position as it was */
+        transform:rotate(0);
+        width:40%;/* earlier it was 20% */
+    }
+}

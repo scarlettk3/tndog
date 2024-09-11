@@ -1,0 +1,182 @@
+/* <!-- Why Dogs? --> */
+/* Navigation Bar */
+body{
+    text-align:center;
+}
+.navbar{
+   
+    background-color:#000;
+    max-height: 70px;
+    
+}
+.navbar-brand{
+    font-family:'Roboto', sans-serif;
+    font-size:2.5rem;
+    font-weight:bold;
+    padding-left: 2rem;
+    color:white;
+}
+.nav-item{
+    padding:0 18px;
+    text-align:right;
+}
+.nav-link{
+    font-size:1.5rem;
+    font-family:'Roboto', sans-serif;
+    color:white;
+}
+.images{
+    padding: 8px;
+    border: 5px solid #012b5d;
+    box-shadow: -4px 5px 5px 0px rgb(0 0 0 / 35%);
+    margin-top: 5px;
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom:10px;
+}
+.color{
+    color:#FF6464;;
+    font-weight:lighter;
+    /* //FF6464; */
+}
+.heading{
+    padding-top:4rem;
+    font-family: 'Merriweather', serif;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+    font-weight:10;
+    color:grey;
+}
+h6{
+    font-size: 10.5pt;
+    margin: 22px 22px;
+    padding:22px;
+    font-family: 'Assistant', sans-serif;
+    box-sizing:border border-box;
+}
+hr{
+    height: 20px;
+}
+@media only screen and (max-width: 1296px){
+    .container {
+      padding:auto;
+    }
+    .heading{
+        font-size:3rem;
+    }
+    .images{
+        float: none;
+        display:block;
+        margin:0 auto;
+    }
+    .head1{
+        max-width: 450px;
+    }
+    
+    .para{
+        font-size: 0.7rem;
+    }
+} 
+/* graph.html  */
+body{
+    background-color:#f4f1ec;
+}
+.image{
+    max-width:1200px;
+    max-height:900px;
+    margin:auto;
+}
+.heading1{
+    position: relative;
+    max-width:700px;
+    margin:0 auto 20px;
+    max-height:300px;
+    position:relative;/*For Grouping */
+    top:40px;
+    right:100px;
+}
+.head1{
+    overflow: hidden;
+    min-height: 100px;
+    margin: -100px 0 20px;
+    padding: 35px;
+    background-color:#fff ;
+    color:#171717;
+    font-family: 'Merriweather', serif;
+}
+.image1{
+    max-width:1200px;
+    max-height:900px;
+    margin:auto;
+    padding:50px;
+}
+.container{
+    margin:auto;
+    padding:100px 50px;
+}
+h1{
+    float: left;
+    margin: 9px 6px -5px -2px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    position:relative;
+    bottom:30px;
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-size:1.5rem;
+    margin:auto;
+}
+.para{
+    font-family: 'Merriweather', serif;
+    font-size:1.5rem;
+    margin:auto;
+    padding:20px;
+}
+
+/* GET MORE.html*/
+/* section info */
+.info-column{
+    padding:3% 2%;
+}
+#info{
+    padding:100px;
+}
+.card-img-top {
+    max-width: 100%;
+    height: 600px;
+    border: none;
+}
+.purple-section{
+    background-color:#ff9999;
+    padding:100px;
+} 
+.white-section{
+    background-color:#ffe6e6;
+}
+#content{
+    display:none;
+}
+.Russia{
+    width: 32px;
+    height: 32px;
+}
+.hea{
+    float: none;
+    text-align:center;
+    font-family: 'Merriweather', serif; 
+    font-size:3.5rem; 
+    font-weight: bold;
+}
+.flogo{
+    margin:20px;
+    font-size: 2rem;
+}
+.container-fluid{
+    background-color:#000;
+    color:white;
+    padding:7% 15%;
+}

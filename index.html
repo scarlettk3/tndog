@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <link rel="icon" href="images/icon dog.jpg">
+  <!-- TO EMBED CSS AND JS FROM BOOTSTRAP -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- TO EMBED GOOGLE FONTS-UBUNTU,Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kreon:wght@300&family=Oswald&family=Roboto+Slab:wght@900&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <!--KIT'S CODE FOR fontawesome.com-->
+  <script src="https://kit.fontawesome.com/8e7aedacc4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<!-- i'm gonna give it a class based on colored(#ff4c68) or not(white) -->
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class='navbar navbar-expand-lg navbar-dark'>
+        <a class='navbar-brand' href=''>Tindog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+          <ul class='navbar-nav ms-auto'>
+            <li class='nav-item'>
+              <a class='nav-link' href="#footer">Contact</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="#Breeds">Breeds</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="#cta">Download</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="graph.html">Popular Breeds</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="whydogs.html">why dogs?</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="https://pawsindia.com/collections/fresh-food-for-dogs">Food</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="https://pawsindia.com/collections/dog">collections</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="https://pawsindia.com/collections/pet-care-dog">Pet care</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href="https://www.justdial.com/Hyderabad/Pet-Shops-For-Dog/nct-10360326">pet shops</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- large screen gets divided into 2 parts and by default medium and small takes 1part as full screen(col-md-12) -->
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+            Download</button>
+          <button type="button" class="btn btn-outline-dark btn-lg download-button"><i
+              class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <!--download-button is the custom class to access button-->
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div><!--closing of container-->
+
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+  <div class="container-fluid"><!-- to apply padding without repetion as same as container-fluid -->
+    <div class="row"><!-- without ROW class the col-lg/md/sm will not work -->
+      <div class="feature-box col-lg-4 col-md-12"><i class="icon fa-solid fa-circle-check fa-4x"></i>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-12"><i class="icon fa-solid fa-bullseye fa-4x"></i>
+        <h3 class="feature-title">Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+
+      <div class="feature-box col-lg-4 col-md-12"><i class="icon fa-solid fa-heart fa-4x"></i>
+        <h3 class="feature-title">Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+
+    </div><!--end of the row-->
+  </div> <!-- end of the container-fluid -->
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section"id="testimonials">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile"><br>
+          <em>Pebbles, New York</em>
+
+        </div>
+        
+        <div class="carousel-item container-fluid">
+
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile"><br>
+          <em>Beverly, Illinois</em>
+
+        </div>
+
+        <div class="carousel-item container-fluid">
+
+          <h2 class="testimonial-text">Which dog breeds have the most health problems?</h2><br>
+          <a href="https://tindog.co/dog-breeds-have-the-most-health-problems/"><img class="testimonial-image" src="https://i0.wp.com/tindog.co/wp-content/uploads/2022/06/captain-photography-PXtlMl39fV0-unsplash.jpg?resize=600%2C400&ssl=1" alt="dog"><br></a>
+          
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="Breeds">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+    <!-- CARD PART -->
+    <div class="row">
+      <!--card1-->
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 >Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="images/chihuahua.jpg" alt="Card image cap">
+            <p class="card-text">
+              <strong>Origin:</strong> Mexico <strong>
+              <img class="image" alt="Mexico" src="https://cdn.shopify.com/s/files/1/1199/8502/files/Mexico.jpg?12248259238347982599"></strong> 
+            </p>
+            <p>
+              <strong>Life Expectancy:&nbsp;</strong>
+              "10-18years"
+            </p>
+            <p style="text-align: justify;">
+              <strong>Breed Speciality:&nbsp;</strong>
+              They like attention and are loyal to their owners. Even though they are considered lap dogs, they are active and like to be kept occupied. Chihuahuas are good family pets when treated respectfully, but they have a reputation for snapping at strangers or small children who may be threatening to their diminutive size.
+            </p>
+            <p><span style="text-decoration: underline; color: #ff0000;">
+              <strong>
+              <a href="https://pawsindia.com/pages/chihuahua" style="color: #ff0000; text-decoration: underline;" target="_blank" rel="noopener noreferrer">MORE</a>
+              </strong>
+              </span> 
+            </p>
+            
+            
+            
+          </div><!-- w-100 is width of the button -->
+        </div>
+      </div>
+      <!--card2-->
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Boxer</h3>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1199/8502/files/31_1_large.jpg?11991872108757779258" alt="Card image cap">
+            <p class="card-text">
+              <strong>Origin:</strong> Germany<strong>
+              <img class="image" alt="Germany" src="https://cdn.shopify.com/s/files/1/1199/8502/files/Germany.jpg?11991872108757779258"></strong> 
+            </p>
+            <p>
+              <strong>Life Expectancy:&nbsp;</strong>
+              "9-10years"
+            </p>
+            <p style="text-align: justify;">
+              <strong>Breed Speciality:&nbsp;</strong>
+              Boxers are intelligent, high-energy, playful dogs that like to stay busy. Their temperament reflects their breeding. They prefer to be in the company of their owners and are loyal pets that will fiercely guard their family and home against strangers. Few boxers bark excessively.
+            </p>
+            <p><span style="text-decoration: underline; color: #ff0000;">
+              <strong>
+              <a href="https://pawsindia.com/pages/boxer" style="color: #ff0000; text-decoration: underline;" target="_blank" rel="noopener noreferrer">MORE</a>
+              </strong>
+              </span> 
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--card3-->
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3> Akita Inu</h3>
+          </div>
+          <div class="card-body">
+            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+            <p class="card-text">
+              <strong>Origin:</strong> Northern Japan <strong>
+              <img class="image" alt="Northern Japan " src="https://cdn.shopify.com/s/files/1/1199/8502/files/istockphoto-936998480-612x612.jpg?v=1643203833"></strong> 
+            </p>
+            <p>
+              <strong>Life Expectancy:&nbsp;</strong>
+              "10-12years"
+            </p>
+            <p style="text-align: justify;">
+              <strong>Breed Speciality:&nbsp;</strong>
+              Akitas are muscular, double-coated dogs of ancient Japanese lineage famous for their dignity, courage, and loyalty. In their native land, they are venerated as family protectors and symbols of good health, happiness, and long life.
+            <p><span style="text-decoration: underline; color: #ff0000;">
+              <strong>
+              <a href="https://pawsindia.com/pages/akita-inu" style="color: #ff0000; text-decoration: underline;" target="_blank" rel="noopener noreferrer">MORE</a>
+              </strong>
+              </span> 
+            </p>
+        </div>
+      </div>
+    </div><!-- Ending of row which has all the 3 cards(as columns)inside it -->
+    <a href="getmore.html"><button type="button" style="margin:auto; " class="btn btn-lg w-50 btn-outline-dark">Get More</button></a>
+
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section  class="colored-section" id="cta">
+  <div style="margin-top: 50px;" class="container-fluid">
+    <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>
+      Download</button>
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+<div class="container-fluid">
+  <footer class="white-section" id="footer">
+    <i class="flogo fa-brands fa-twitter"></i>
+    <i class="flogo fa-brands fa-facebook"></i>
+    <i class="flogo fa-brands fa-instagram"></i>
+    <i class="flogo fa-solid fa-envelope"></i>
+    <p>© Copyright TinDog</p>
+</div>
+
+  </footer>
+
+
+</body>
+
+</html>
